@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Xero_CodingExercise]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Xero.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Xero_CodingExercise_Test(failed)">
+    <classes>
+      <class name="com.Xero.testCases.TC_AddOrganizationTestCase">
+        <methods>
+          <include name="steup"/>
+          <include name="loginTest"/>
+          <include name="TC_AddOrganizationTestCase"/>
+        </methods>
+      </class> <!-- com.Xero.testCases.TC_AddOrganizationTestCase -->
+    </classes>
+  </test> <!-- Xero_CodingExercise_Test(failed) -->
+</suite> <!-- Failed suite [Xero_CodingExercise] -->
